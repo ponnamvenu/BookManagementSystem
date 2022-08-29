@@ -36,7 +36,9 @@ namespace BooksWebApp
 
             builder.Services.AddScoped<IBookRepository, AdoBookRepository>();
 
+            builder.Services.AddScoped<IUserService, DefaultUserManager>();
 
+            builder.Services.AddScoped<IUserRepository, AdoUserRepository>();
             //----------------
 
 
