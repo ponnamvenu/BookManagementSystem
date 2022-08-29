@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "JM7RZchdH97iu4SvWLf+zH0TsIFIftYPm631s6Euz3w=",
+  "Source": "HelloWeb",
+  "BasePath": "_content/HelloWeb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "HelloWeb\\wwwroot",
+      "Source": "HelloWeb",
+      "ContentRoot": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\HelloWeb\\wwwroot\\",
+      "BasePath": "_content/HelloWeb",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\HelloWeb\\wwwroot\\login.html",
+      "SourceId": "HelloWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\HelloWeb\\wwwroot\\",
+      "BasePath": "_content/HelloWeb",
+      "RelativePath": "login.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\login.html"
+    },
+    {
+      "Identity": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\HelloWeb\\wwwroot\\logo.jpg",
+      "SourceId": "HelloWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\HelloWeb\\wwwroot\\",
+      "BasePath": "_content/HelloWeb",
+      "RelativePath": "logo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo.jpg"
+    },
+    {
+      "Identity": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\HelloWeb\\wwwroot\\Welcome.html",
+      "SourceId": "HelloWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\HelloWeb\\wwwroot\\",
+      "BasePath": "_content/HelloWeb",
+      "RelativePath": "Welcome.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Welcome.html"
+    }
+  ]
+}

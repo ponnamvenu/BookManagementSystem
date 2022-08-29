@@ -1,0 +1,33 @@
+﻿* {
+    color:lightcoral;
+}
+
+body{
+    background:black;
+}
+
+.header{
+    border-bottom:2px solid lightcoral;
+}
+
+footer{
+    margin-top:10px;
+    border-top:2px solid lightcoral;
+}
+
+.site-title{
+    font-size:40px;
+    color:lightcoral;
+}
+
+li{
+    list-style:none;
+    display:inline;
+    font-weight:bold;
+    padding-right:5px;
+    border-right:2px solid gray;
+}
+
+li a {
+    text-decoration: none;
+}

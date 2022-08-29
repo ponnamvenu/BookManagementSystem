@@ -1,0 +1,104 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.list-table {
+    width: 100%;
+}
+
+    .list-table th {
+        background: black;
+        color: white;
+    }
+
+#page-title {
+    text-shadow: -2px -1px 1px gray;
+}
+/* style for pics inside .list-table*/
+.list-table img, .thumbnail {
+    margin: 10px;
+    border-radius: 10%;
+    box-shadow: -5px -5px 5px gray;
+    background: black;
+    padding: 10px;
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+}
+
+.button {
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px gray;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    min-width: 100px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+.green-button {
+    background: green;
+}
+
+.red-button {
+    background: red;
+}
+
+.list-table tbody tr:nth-child(2n+1) {
+    background: lightgray;
+}
+
+.list-table tbody tr:nth-child(2n) {
+    background: lightblue;
+}
+
+.list-table td:hover {
+    background: #ff0000;
+}
+
+.badge-black {
+    background: black;
+}
+
+.badge-gray {
+    background: gray;
+}
+
+.profile-image {
+    width: 250px;
+    border: 10px solid black;
+    border-radius: 10%;
+    padding: 20px;
+    padding-bottom: 50px;
+    box-shadow: -5px -5px 5px gray;
+}
+
+.btn {
+    margin: 5px;
+}
+
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}

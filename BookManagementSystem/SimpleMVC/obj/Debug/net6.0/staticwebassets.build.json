@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "i1TiCluCTLmcvHjhrmUiKI3x0ncwt54/GA4fL+rJNEE=",
+  "Source": "SimpleMVC",
+  "BasePath": "_content/SimpleMVC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SimpleMVC\\wwwroot",
+      "Source": "SimpleMVC",
+      "ContentRoot": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\SimpleMVC\\wwwroot\\",
+      "BasePath": "_content/SimpleMVC",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\SimpleMVC\\wwwroot\\Styles\\App.css",
+      "SourceId": "SimpleMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\SimpleMVC\\wwwroot\\",
+      "BasePath": "_content/SimpleMVC",
+      "RelativePath": "Styles/App.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Styles\\App.css"
+    }
+  ]
+}

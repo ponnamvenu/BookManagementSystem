@@ -1,0 +1,1 @@
+﻿window.confirm("Are You Sure, Do you want to Delete? ");

@@ -1,0 +1,285 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\BooksWebApp\\BooksWebApp.csproj": {}
+  },
+  "projects": {
+    "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\BooksWebApp\\BooksWebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\BooksWebApp\\BooksWebApp.csproj",
+        "projectName": "BooksWebApp",
+        "projectPath": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\BooksWebApp\\BooksWebApp.csproj",
+        "packagesPath": "C:\\Users\\venupo\\.nuget\\packages\\",
+        "outputPath": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\BooksWebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\venupo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.BookManagement.Repositories.AdoNet\\ConceptArchitect.BookManagement.Repositories.AdoNet.csproj": {
+                "projectPath": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.BookManagement.Repositories.AdoNet\\ConceptArchitect.BookManagement.Repositories.AdoNet.csproj"
+              },
+              "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
+                "projectPath": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.BookManagement.Repositories.AdoNet\\ConceptArchitect.BookManagement.Repositories.AdoNet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.BookManagement.Repositories.AdoNet\\ConceptArchitect.BookManagement.Repositories.AdoNet.csproj",
+        "projectName": "ConceptArchitect.BookManagement.Repositories.AdoNet",
+        "projectPath": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.BookManagement.Repositories.AdoNet\\ConceptArchitect.BookManagement.Repositories.AdoNet.csproj",
+        "packagesPath": "C:\\Users\\venupo\\.nuget\\packages\\",
+        "outputPath": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.BookManagement.Repositories.AdoNet\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\venupo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
+                "projectPath": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj"
+              },
+              "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
+                "projectPath": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
+        "projectName": "ConceptArchitect.BookManagement",
+        "projectPath": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.BookManagement\\ConceptArchitect.BookManagement.csproj",
+        "packagesPath": "C:\\Users\\venupo\\.nuget\\packages\\",
+        "outputPath": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.BookManagement\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\venupo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
+                "projectPath": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
+        "projectName": "ConceptArchitect.Utils",
+        "projectPath": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.Utils\\ConceptArchitect.Utils.csproj",
+        "packagesPath": "C:\\Users\\venupo\\.nuget\\packages\\",
+        "outputPath": "C:\\dotnet-training\\pract-2-myworks\\BookManagementSystem\\ConceptArchitect.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\venupo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

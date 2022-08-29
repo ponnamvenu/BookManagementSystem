@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/Styles/App.css" />
+    <title></title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="site-title">Simple Alexa App</h1>
+        <ul>
+            <li><a href="/alexa">Alexa Home</a></li>
+            <li><a href="/alexa/today">Today</a></li>
+            <li><a href="/alexa/tomorrow">Tomorrow</a></li>
+        </ul>
+    </div>
+    <!--This is where different Views will add their content-->
+     @RenderBody()
+    <!--end of user content-->
+    <footer>
+        &copy; www.conceptarchitect.in
+    </footer>
+</body>
+</html>
