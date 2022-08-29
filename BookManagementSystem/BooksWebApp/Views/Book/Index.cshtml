@@ -1,11 +1,7 @@
 ﻿@model IEnumerable<Book>
-<a asp-action="create" class="btn btn-default">Add Book</a>
+<a asp-action="create" class="btn btn-link">Add Book</a>
 <h2 id="page-title"> Available Books</h2>
-<script>  
-function confirmMsg() {  
-window.confirm("Are You Sure, Do you want to Delete? "); 
-}  
-</script>
+
 <table class="table table-compact table-striped table-hover">
 	<thead>
 		<tr>
@@ -29,7 +25,7 @@ window.confirm("Are You Sure, Do you want to Delete? ");
 				<td>
 					<a class="btn btn-sm btn-primary" asp-controller="book" asp-action="details" asp-route-id="@Book.Id" >Details</a>
 						<a class="btn btn-sm btn-primary" asp-controller="book" asp-action="edit" asp-route-id="@Book.Id" >Edit</a>
-						<a class="btn btn-sm btn-danger" asp-controller="book" asp-action="delete" asp-route-id="@Book.Id"  onClick="confirmMsg()">Delete</a>
+						<a class="btn btn-sm btn-danger" asp-controller="book" asp-action="delete" asp-route-id="@Book.Id" >Delete</a>
 				
 				</td>
 			</tr>

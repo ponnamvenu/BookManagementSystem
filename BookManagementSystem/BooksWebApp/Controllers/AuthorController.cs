@@ -30,7 +30,14 @@ namespace BooksWebApp.Controllers
         // Assignment on 24-08-2022
         public ActionResult Delete(string id)
         {
-           authorManager.RemoveAuthor(id);
+            var author = authorManager.GetAuthorById(id);
+            return View(author);
+
+        }
+        [HttpPost]
+        public ActionResult Delete(Author author)
+        {
+           authorManager.RemoveAuthor(author.Id);
             return RedirectToAction("Index");
         }
         

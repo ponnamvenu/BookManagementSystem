@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<Author>
 
-	<a asp-action="create" class="btn btn-default">Add Author</a>
+	<a asp-action="create" class="btn btn-link">Add Author</a>
 <h2 id="page-title"> OuR Recommended Author</h2>
 
 <table class="table table-compact table-striped table-hover">
@@ -11,18 +11,7 @@
 			<th>Tags</th>
 			<th>Actions</th>
 		</tr>
-		<script>  
-		function Confirm() {
-            var confirm_value = document.createElement("INPUT");
-            confirm_value.type = "hidden";
-            confirm_value.name = "confirm_value";
-            if (confirm("Do you want to Delete?")) {
-                 onClick="delete"
-            } else {
-                confirm_value.value = "No";
-            }
-            document.forms[0].appendChild(confirm_value);
-		</script>
+		
 	</thead>
 	<tbody>
 		@foreach(var author in Model)
@@ -43,7 +32,7 @@
 				<td>
 					<a class="btn btn-sm btn-primary" asp-controller="author" asp-action="details" asp-route-id="@author.Id">Details</a>
 					<a class="btn btn-sm btn-primary"  asp-action="edit" asp-route-id="@author.Id">Edit</a>
-					<a class="btn btn-sm btn-danger" asp-controller="author"     OnClientClick = "Confirm()" asp-route-id="@author.Id">Delete</a>
+					<a class="btn btn-sm btn-danger" asp-controller="author" asp-action="delete" asp-route-id="@author.Id">Delete</a>
 				</td>
 			</tr>
 		
